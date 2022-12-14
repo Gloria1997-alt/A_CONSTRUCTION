@@ -1,0 +1,24 @@
+{
+  "name": "a-construction_company",
+  "version": "1.0.0",
+  "description": "getting started",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Gloria1997-alt/A-CONSTRUCTION_COMPANY.git"
+  },
+  "author": "Gloria Imoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gloria1997-alt/A-CONSTRUCTION_COMPANY/issues"
+  },
+  "homepage": "https://github.com/Gloria1997-alt/A-CONSTRUCTION_COMPANY#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

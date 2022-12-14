@@ -1,0 +1,135 @@
+body {
+  background-image: url("../images/construction.jpg");
+ }
+
+
+main {
+    width: 95%;
+    max-width: 50rem;
+    margin: 3rem auto;
+    text-align: center;
+  }
+  
+  main h1 {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    color:rgb(202, 158, 62);
+  }
+  
+  main ul {
+    list-style: none;
+    margin: 3rem 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  main li {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 6px;
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  main li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(48, 42, 31);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(218, 205, 183);
+    font-size: 1.25rem;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  main li a:hover,
+  main li a:active {
+    background-color: rgb(100, 81, 43);
+  }
+
+
+  footer {
+    display: grid;
+    background-color: black;
+    background: fixed;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: left;
+}
+
+
+*{
+    color: burlywood;
+    box-sizing:content-box;
+  }
+
+
+  footer{
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    background:gray;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 60%;
+    padding: 5px 10px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .right form .msg{
+    margin-top: 10px;
+  }
+  .right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .right form input:focus,
+  .right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .right form input{
+    height: 35px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .right form .btn button{
+    height: 30px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background: #3498db;
+    font-size: 1.0625rem;
+    font-weight: 200;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .right form .btn button:hover{
+    background: black;
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }

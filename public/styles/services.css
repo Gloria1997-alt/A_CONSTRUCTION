@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+.our-services{
+    padding: 5rem 7%;
+}
+.our-services h1{
+    color: turquoise;
+    font-size: 60px;
+    text-align: left;
+    padding: 1rem 0;
+}
+.our-services h1 span{
+    color: turquoise;
+}
+.main-service{
+    margin-top: 15px;
+    color: tan;
+    
+    justify-content:flex-start;
+    align-items: left;
+    display:grid;
+    gap: 5px;
+}
+
+.inner-service h2{
+    padding: 1rem 0;
+    font-size: 3rem;
+    text-align: left;
+}
+.inner-service p{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-align: l;
+}
+.inner-service li{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.inner-service a{
+    padding: 1.5rem 3rem;
+    background:burlywood;
+    color: white;
+    border-radius: 15px;
+
+}
+.inner-service a:hover{
+    background: turquoise;
+    color: white;
+}

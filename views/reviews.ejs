@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('includes/head') %>  
+    <link rel="stylesheet" href="styles/review.css" />
+    
+  </head>
+  <body>
+    <%- include('includes/header') %>
+    <%- include('includes/side-drawer') %>
+    
+    <main>
+      <h1>Reviews</h1>
+      <p>Find your answers with the help of feedbacks from other users!</p>
+      <p>We found <%= numberOfReviews %> reviews</p>
+      <ul id="reviews-list">
+        <% for (const review of reviews) { %>
+        <li class="review-item">
+          <article>
+            <h2><%= review.name %></h2>
+            <div class="review-meta">
+              <p><%= review.address %></p>
+              <p><%= review.email %></p>
+            </div>
+            <p>
+              <%= review.description %>
+            </p>
+          
+          </article>
+        </li>
+        <% } %>
+      </ul>
+    </main>
+  </body>
+</html>
